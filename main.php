@@ -9,10 +9,10 @@
 
     <?php
     function databaseconnectie() {
-        $host = "localhost";
-        $user = "root";
-        $pass = ""; // Vul je wachtwoord in indien nodig
-        $databasename = "testctidatabase";
+        $host = "10.1.1.4";
+        $user = "sqladmin ";
+        $pass = "StrongP@ssw0rd123"; // Vul je wachtwoord in indien nodig
+        $databasename = "appdb";
         $port = 3306;
 
         $connection = mysqli_connect($host, $user, $pass, $databasename, $port);
