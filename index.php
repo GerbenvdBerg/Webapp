@@ -9,7 +9,7 @@
 
     <?php
     // Verbinding maken met Azure SQL Database (sqlsrv-driver vereist)
-    $serverName = "10.1.1.4,1433"; // IP + poort
+    $serverName = "windesheim-gerben-ctidb.database.windows.net,1433"; // IP + poort
     $connectionOptions = array(
         "Database" => "appdb", // Let op: NIET "dbo.testctidatabase"
         "Uid" => "sqladmin",
