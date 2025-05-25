@@ -13,7 +13,7 @@
     $connectionOptions = array(
         "Database" => "appdb", // Let op: NIET "dbo.testctidatabase"
         "Uid" => "sqladmin",
-        "PWD" => "StrongP@ssw0rd123!",
+        "PWD" => "StrongP@ssw0rd123",
         "Encrypt" => true,
         "TrustServerCertificate" => true // Alleen voor testdoeleinden
     );
