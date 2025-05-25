@@ -11,7 +11,7 @@
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 try {
-    $conn = mysqli_connect("10.1.1.4", "sqladmin", "StrongP@ssw0rd123!", "appdb", 3306);
+    $conn = mysqli_connect("10.1.1.4", "sqladmin", "StrongP@ssw0rd123!", "appdb", 1443);
     echo "<p style='color: green;'>✅ Connectie is gelukt.</p>";
 
     // Query uitvoeren
